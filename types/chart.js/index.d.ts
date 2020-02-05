@@ -48,6 +48,7 @@ declare class Chart {
     getElementsAtEvent: (e: any) => Array<{}>;
     getDatasetAtEvent: (e: any) => Array<{}>;
     getDatasetMeta: (index: number) => Meta;
+    updateHoverStyle: (elements: Array<{}>, mode: Chart.InteractionMode, enabled: boolean) => void;
     ctx: CanvasRenderingContext2D | null;
     canvas: HTMLCanvasElement | null;
     width: number | null;
