@@ -43,7 +43,7 @@ declare class Chart {
     resize: () => Chart;
     clear: () => Chart;
     toBase64Image: () => string;
-    generateLegend: () => {};
+    generateLegend: () => string;
     getElementAtEvent: (e: any) => [{}];
     getElementsAtEvent: (e: any) => Array<{}>;
     getDatasetAtEvent: (e: any) => Array<{}>;
